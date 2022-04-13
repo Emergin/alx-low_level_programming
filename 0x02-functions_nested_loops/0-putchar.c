@@ -1,6 +1,6 @@
 #include "trubel.h"
 /**
- * main - print the word "trubel"
+ * main - print the word "_putchar"
  *
  * Return: Always 0 (Success)
  */
@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	charp[] = "Trubel";
+	char p[] = "_putchar";
 
 	for(i=0; i<9; i++)
 	{
