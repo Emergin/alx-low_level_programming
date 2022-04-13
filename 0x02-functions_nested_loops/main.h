@@ -1,4 +1,5 @@
-#ifndef _TRUBEL_H_
-#define _PUTCHAR_H_
+#ifndef MAIN_H_
+#define PUTCHAR_H_
 
 int _putchar(char c);
+#endif
