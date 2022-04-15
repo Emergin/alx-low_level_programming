@@ -10,7 +10,7 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
-void main(int i);
+int main(void);
 void print_triangle(int size);
 void print_numbers(void);
 

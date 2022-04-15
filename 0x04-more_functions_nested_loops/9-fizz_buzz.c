@@ -4,7 +4,7 @@
 * @void: no argument
 * Return: 0 Success
 */
-void  main(int i)
+int main(void)
 {
 	int i;
 
