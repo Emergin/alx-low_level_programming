@@ -10,7 +10,7 @@ void print_number(int n)
 	{
 		n1 = -n;
 
-		-putchar('-');
+		_putchar('-');
 	}
 	else
 	{

@@ -6,7 +6,7 @@
  * @n:integer
  * Return:1 if true, 0 if false
  */
-int isPrintableeASCII(int n)
+int isPrintableASCII(int n)
 {
 	return (n >= 32 && n <= 126);
 }
@@ -41,7 +41,7 @@ void print_bufffer(char *b,int size)
 	int start , end;
 	if(size > 0)
 	{
-		for(start = 0; start < size; start +=10;
+		for(start = 0; start < size; start +=10)
 				{
 				end = (size  - start < 10) ? size - start : 10;
 				printf("%8x: ", start);
