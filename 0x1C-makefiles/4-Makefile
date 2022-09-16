@@ -22,3 +22,4 @@ oclean:
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 re: oclean all
+
