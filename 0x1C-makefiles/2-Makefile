@@ -1,0 +1,12 @@
+# make School executable with variables: CC, SRC, OBJ, NAME
+
+CC = gcc
+SRC = main.c School.c
+OBJ =  $(SRC:.c=.o)
+NAME = School
+
+all: $(OBJ)
+	$(CC) $? -o $(NAME)
+
+%.o: %.c
+	$(CC) -c -o $@ $<

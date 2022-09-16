@@ -1,0 +1,4 @@
+# makefile build executable file school
+
+all: main.c School.c
+	gcc main.c School.c -o School

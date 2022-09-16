@@ -1,0 +1,22 @@
+# executable file with variables and deletes all temporary files 
+
+CC = gcc 
+SRC = main.c School.c 
+OBJ = $(SRC:.c=.O)
+NAME = School 
+RM = rm -f
+
+all: $(OBJ)
+	$(CC) $? -o $(NAME)
+
+%.o: %.c
+	$(CC) -c -o $@ $<
+
+oclean:
+	$(RM) $(OBJ)
+
+clean:
+	$(RM) *~$(NAME)
+
+fclean: clean oclean
+re: oclean all
