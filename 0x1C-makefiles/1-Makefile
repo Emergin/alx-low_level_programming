@@ -1,8 +1,8 @@
 # make School executable with variables CC, SC
 
 CC = gcc 
-SRC = main.c School.c 
+SRC = main.c school.c 
 
 all: $(SRC)
-	$(CC) $(SRC) -o School
+	$(CC) $(SRC) -o school
 

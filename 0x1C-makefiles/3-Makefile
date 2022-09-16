@@ -1,9 +1,9 @@
 # executable file with variables and deletes all temporary files 
 
 CC = gcc 
-SRC = main.c School.c 
+SRC = main.c school.c 
 OBJ = $(SRC:.c=.O)
-NAME = School 
+NAME = school 
 RM = rm -f
 
 all: $(OBJ)
